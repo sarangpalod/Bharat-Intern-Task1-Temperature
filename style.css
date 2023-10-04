@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background-color: rgb(38, 35, 35);
 }
 main{
     display: flex;
