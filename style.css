@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+main{
+    display: flex;
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: radial-gradient(circle,  #0000004c, #000000, #000000, #053b505a, #000000);
+    
+}
+.container{
+    background-color: rgba(31, 25, 50, 0.491);
+    padding:40px 20px;
+    border-radius: 10px;
+    border:1px solid white;
+    box-shadow: inset 0 0 10px #000000;
+    
+}
+
+.temperature h1{
+    font-size: 24px;
+    text-align: center;
+    padding:10px 40px;
+    color:white;
+}
+.form{
+    padding:20px 40px;
+}
+.form form .temp-selector{
+    width:100%;
+}
+.temp-selector select{
+    width:100%;
+    padding:5px 140px;
+    background-color:#4f709c53;
+    border-radius: 4px;
+    color:white;
+    margin-bottom: 15px;
+    border:none;
+    outline: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: justify;
+
+}
+.temp-selector select option{
+    background-color:#00000044;
+    font-size: 14px;
+    color:rgb(255, 255, 255);    
+   
+    
+}
+
+
+.converter-row{
+    display: flex;
+justify-content: space-between;
+    margin: 12px 00px;
+}
+.col input{
+    padding:12px 4px;
+    background-color: rgba(255, 255, 255, 0.279);
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    color:white;
+    font-size: 16px;
+}
+.btn{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.formula-display{
+    margin-top:20px;
+   
+}
+.formula-display h2{
+    font-size: 16px;
+    color:rgb(255, 251, 0);
+    
+}
+.formula-display h2 span{
+    color:white;
+}
+.btn button{
+    padding:10px 20px;
+    background-color: rgba(255, 255, 255, 0.126);
+    border-radius: 8px;
+    font-size: 17px;
+    color:white;
+    border: none;
+    border: 1px solid black; 
+}
+.btn button:hover{
+    background-color: rgb(97, 98, 98);
+}
+
+/* media query */
+@media(max-width:550px){
+    .container{
+        
+        padding:40px 0px;
+    }
+}
+
+@media(max-width:492px){
+    .converter-row{
+        flex-direction: column;
+    }
+    .converter-row .col input{
+        width: 100%;
+        margin:12px 00px;
+    }
+}
