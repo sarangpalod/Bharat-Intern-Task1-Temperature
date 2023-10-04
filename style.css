@@ -14,7 +14,7 @@ main{
     justify-content: center;
     align-items: center;
     
-    background-image: radial-gradient(circle,  #0000004c, #000000, #000000, #053b505a, #000000);
+    background-image: radial-gradient(circle,  #4133334c, #3c3535, #4f4040, #39474d5a, #5f4949);
     
 }
 .container{
